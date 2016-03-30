@@ -1,0 +1,13 @@
+<widget id="com.zengagi-waqi" version="0.0.1">
+	<name>از آفرینش تا مسیح</name>
+	<description>
+		پیام انجیل عیسی مسیح
+	</description>
+	<author>
+		Jim Smith
+	</author>
+	<content src="index.html" />
+	<access origin="*" />
+	<preference name="Fullscreen" value="true" />
+	<icon src="icon.png" width="170" height="170"/>
+</widget>

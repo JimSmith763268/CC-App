@@ -1,0 +1,17 @@
+body {
+	background-color: white;
+	direction: rtl;
+	font-size: 48px;
+}
+
+div[data-role=page] {
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+.in, .out {
+    -webkit-animation-timing-function: ease-in-out;
+    -webkit-animation-duration: 10ms !important;
+}

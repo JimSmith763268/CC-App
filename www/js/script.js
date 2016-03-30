@@ -11,6 +11,8 @@ $(document).ready( function() {
 		previousPage();
 	});
 	
+	document.addEventListener("backbutton", previousPage, false);
+	
 	function nextPage() {
 		var nextPage = $( ":mobile-pagecontainer" ).pagecontainer("getActivePage").next("div[data-role='page']")
 		if( nextPage.length > 0 ) {

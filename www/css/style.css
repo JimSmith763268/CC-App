@@ -7,7 +7,18 @@ body {
 div[data-role=page] {
 	background-attachment: fixed;
 	background-position: center;
+	-webkit-background-position: center;
+	-moz-background-position: center;
+	-o-background-position: center;
+
 	background-repeat: no-repeat;
+	-webkit-background-repeat: no-repeat;
+	-moz-background-repeat: no-repeat;
+	-o-background-repeat: no-repeat;
+
+	-webkit-background-size: contain;
+	-moz-background-size: contain;
+	-o-background-size: contain;
 	background-size: contain;
 }
 

@@ -4,25 +4,16 @@ body {
 	font-size: 48px;
 }
 
-div[data-role=page] {
-	background-attachment: fixed;
-	background-position: center;
-	-webkit-background-position: center;
-	-moz-background-position: center;
-	-o-background-position: center;
-
-	background-repeat: no-repeat;
-	-webkit-background-repeat: no-repeat;
-	-moz-background-repeat: no-repeat;
-	-o-background-repeat: no-repeat;
-
-	-webkit-background-size: contain;
-	-moz-background-size: contain;
-	-o-background-size: contain;
-	background-size: contain;
-}
-
 .in, .out {
     -webkit-animation-timing-function: ease-in-out;
     -webkit-animation-duration: 10ms !important;
+}
+
+.fit {
+	max-width: 100%;
+	max-height: 100%;
+}
+.center {
+	display: block;
+	margin: auto;
 }
